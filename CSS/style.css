@@ -1,0 +1,99 @@
+body{
+    background-color:greenyellow;
+    color:white;
+    }
+
+h1{
+    color: orange;
+    font-family: inherit,sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-size: 17px;
+    color: blue;
+}
+h3{
+    font-size: 20px;
+    color:brown;
+}
+
+ol{
+    margin: 12px;
+    padding: 15px;
+    padding-left: 50px;
+    background-color:white;
+    color: orchid;
+}
+    
+/* For ID and Class lecture  */
+
+h2#maintitle{
+    
+            color: red;
+            border:solid 8px violet;
+            padding-bottom: 40px;
+            padding-top: 45px;
+            padding-left: 100px;
+            padding-right: 20px;
+            }
+h3.main-title{
+                color: #cff;
+                padding: 40px 10px 30px;
+                font-size: 30px;
+            }
+h4.main-title{
+    
+            color: olive;
+            text-align: right;
+            }
+
+h1.main-title{
+            color: black;
+            font-size: 25;
+            text-align: center;
+    padding: 10px 20px 40px 60px;
+            }
+
+/* Styles for Decendent lectures */
+
+.Primary-box{
+    background-color:white;
+    padding: 10px;
+    border: solid 10px #33f;
+}
+
+.seondary-box{
+    background-color:black;
+    padding: 10px;
+    border:solid 10px #fff;
+}
+
+.seondary-box p {
+    color: pink;
+    font-size: 17px;
+}
+.Primary-box p{
+    color: green;
+    font-size: 10px;
+}
+
+.Primary-box p em{
+    color: red;
+}
+.seondary-box p em{
+    color: #fc34;
+}
+
+/* styles for grouping lectures */
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding-bottom: 10px;
+}
+
+#maincontainer{
+    width: 960px;
+    margin: 0 auto;    
+}
